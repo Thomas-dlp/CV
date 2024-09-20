@@ -99,6 +99,15 @@ h2{
     "content";
 }
 
+/* Timeline */
+.timeline{
+  grid-area: content-left-column;
+  padding: 50px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* HEADER */
 .header{
   grid-area: header;
@@ -118,8 +127,15 @@ h2{
 /* CONTENT */
 .content{
   grid-area: content;
-  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "content-left-column content-right-column content-right-column content-right-column";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  /*padding: 50px;*/
 }
+
 
 .experience-list{
   list-style-type: circle;
