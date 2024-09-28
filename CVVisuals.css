@@ -124,7 +124,7 @@ h2 {
 .content {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 70px 240px 120px 70px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 70px 150px 240px 120px 70px 100px 100px 100px 100px 100px 100px ;
 
 
 
@@ -136,80 +136,85 @@ h2 {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-
-
-.date1 {
+.date1{
   grid-column: 1/2;
   grid-row: 2/3;
 }
-
-.exp1 {
+.exp1{
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.dateExp2 {
+.date2{
   grid-column: 1/2;
   grid-row: 3/4;
 }
 
-.experience2 {
+.exp2{
   grid-column: 2/3;
   grid-row: 3/4;
 }
 
-.titre2 {
+.dateExp3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.experience3 {
   grid-column: 2/3;
   grid-row: 4/5;
 }
 
-.dateFormation1 {
-  grid-column: 1/2;
+.titre2 {
+  grid-column: 2/3;
   grid-row: 5/6;
 }
 
+.dateFormation1 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+
 .formation1 {
   grid-column: 2/3;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 
 .dateFormation2 {
   grid-column: 1/2;
-  grid-row: 6/7;
-}
+  grid-row: 7/8;
+} 
 
 .formation2 {
   grid-column: 2/3;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 
-.dateFormation3 {
+
+.dateFormation3{
   grid-column: 1/2;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 
 .formation3 {
   grid-column: 2/3;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 
 .titre3 {
   grid-column: 2/3;
-  grid-row: 8/9;
-}
-
-.autre1 {
-  grid-column: 2/3;
   grid-row: 9/10;
 }
-.autre2 {
+.autre1 {
   grid-column: 2/3;
   grid-row: 10/11;
 }
-
-.test {
-  margin-bottom: 1.5rem;
+.autre2 {
+  grid-column: 2/3;
+  grid-row: 11/12;
 }
+
 
 /* .contentelement{
   grid-area: content;
