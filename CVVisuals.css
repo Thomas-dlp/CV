@@ -267,4 +267,6 @@ h2{
 
 .experience-list {
   list-style-type: circle;
+  text-align:left;
+  margin-right: 0px;
 }
